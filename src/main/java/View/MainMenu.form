@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.MainMenu">
+  <grid id="27dc6" binding="menuPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6cfc8" class="javax.swing.JLabel" binding="titleLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="60" bottom="0" right="60" weightx="1.0" weighty="0.0" ipady="50"/>
+        </constraints>
+        <properties>
+          <font size="36" style="1"/>
+          <name value="titleLabel"/>
+          <text value="Toguz Korgool"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <hspacer id="cfe">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="2f650" class="javax.swing.JButton" binding="newGameButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="15" right="0" weightx="0.0" weighty="0.0" ipadx="55" ipady="10"/>
+        </constraints>
+        <properties>
+          <name value="newGameButton"/>
+          <text value="New Game"/>
+        </properties>
+      </component>
+      <component id="9490c" class="javax.swing.JButton" binding="customGameButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="15" right="0" weightx="0.0" weighty="0.0" ipadx="40" ipady="10"/>
+        </constraints>
+        <properties>
+          <name value="customGameButton"/>
+          <text value="Custom Game"/>
+        </properties>
+      </component>
+      <component id="b7056" class="javax.swing.JButton" binding="loadGameButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="15" right="0" weightx="0.0" weighty="0.0" ipadx="58" ipady="10"/>
+        </constraints>
+        <properties>
+          <name value="loadGameButton"/>
+          <text value="Load Game"/>
+        </properties>
+      </component>
+      <component id="c00e6" class="javax.swing.JButton" binding="instructionsButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="25" right="0" weightx="1.0" weighty="0.0" ipadx="60" ipady="10"/>
+        </constraints>
+        <properties>
+          <name value="instructionsButton"/>
+          <text value="Instructions"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
